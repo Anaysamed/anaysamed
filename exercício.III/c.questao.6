@@ -1,0 +1,35 @@
+algoritmo "questao6"
+var
+qntd: inteiro
+codigo: inteiro
+
+
+inicio
+escreval ("=============================================================")
+escreval ("CÓDIGO DO ITEM     ESPECIFICAÇÃO             PREÇO UNITÁRIO")
+escreval      ("100             Cachorro quente              7,00")
+escreval      ("101             Bauru                        8,00")
+escreval      ("102             X-Salada                     9,00")
+escreval      ("103             Hambúrguer                   10,00")
+escreval      ("104             Refrigerante(lata)           3,00")
+escreval ("=============================================================")
+escreval("por favor. digite o codigo do item desejado")
+leia (codigo)
+escreval ("digite a quantidade")
+leia (qntd)
+escreval("===============================================================")
+escolha (codigo)
+ caso 100
+   escreval ("o valor a ser pago é: ", qntd * 7:2:2)
+ caso 101
+   escreval ("o valor a ser pago é: ", qntd * 8:2:2)
+ caso 102
+   escreval ("o valor a ser pago é: ", qntd * 9:2:2)
+ caso 103
+   escreval ("o valor a ser pago é: ", qntd * 10:2:2)
+ caso 104
+   escreval ("o valor a ser pago é: ", qntd * 3:2:2)
+ outrocaso
+   escreval ("você digitou uma opção inválida")
+ fimescolha
+fimalgoritmo
