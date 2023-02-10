@@ -8,11 +8,11 @@ inicio
  leia (qntd)
  
  se (qntd>=12) entao
- macas := (1.10*qntd)
+ macas := 1.10*qntd
  senao
- macas := (1.30*qntd)
+ macas := 1.30*qntd
  fimse
- escreval ("o valor a ser pago é ", macas)
+ escreval ("o valor a ser pago é ", macas:2:2)
 
 
 fimalgoritmo
