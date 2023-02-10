@@ -1,0 +1,13 @@
+algoritmo "semnome"
+var
+
+idade: inteiro
+
+inicio
+escreval("digite sua idade")
+leia(idade)
+se (idade>=18) entao
+escreval("parabéns, você é maior de idade")
+fimse
+
+fimalgoritmo
