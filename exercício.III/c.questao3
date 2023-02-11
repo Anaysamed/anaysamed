@@ -1,0 +1,22 @@
+algoritmo "questão3"
+var
+
+num: inteiro
+
+inicio
+
+escreval ("por favor, digite um número")
+leia (num)
+
+  se (num=0) entao
+   escreval ("neutro")
+ senao
+   se (num<0) entao
+    escreval ("negativo")
+      senao (num>0) entao
+       escreval ("positivo")
+  fimse
+  fimse
+
+
+fimalgoritmo
