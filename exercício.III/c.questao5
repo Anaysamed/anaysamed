@@ -1,0 +1,22 @@
+algoritmo "questao5"
+var
+ diaria: real
+ vfinal: real
+ vdiaria: real
+inicio
+  escreval ("Ola, digite quantas diárias desejadas")
+  leia (diaria)
+  vdiaria := 200
+    se (diaria<7) entao
+    vfinal := (diaria*vdiaria)+(diaria*4)
+     senao
+    se (diaria=7) entao
+    vfinal := (diaria*vdiaria)+(diaria*3.60)
+     senao (diaria>7) entao
+    vfinal := (diaria*vdiaria)+(diaria*3)
+     fimse
+    fimse
+     escreval ("o valor a ser pago é ", vfinal:2:2)
+
+
+fimalgoritmo
