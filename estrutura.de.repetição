@@ -1,0 +1,17 @@
+algoritmo "enquanto contador"
+var
+cont, n, v, s:inteiro
+inicio
+cont := 1
+s := 0
+
+escreval ("escreva quantos numeros deseja somar")
+leia (n)
+enquanto (cont <=n) faca
+escreval ("digite o", cont, "° valor")
+leia (v)
+s:= s + v
+cont := cont + 1
+  fimenquanto
+  escreval ("soma = ", s)
+fimalgoritmo
