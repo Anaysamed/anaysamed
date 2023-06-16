@@ -1,0 +1,16 @@
+Algoritmo "nome&idade"
+
+Var
+ Nome1: caractere
+ idade: inteiro
+
+
+Inicio
+ escreval ("Por favor, digite seu nome")
+ leia (nome1)
+ escreval ("Por favor, digite sua idade")
+ leia (idade)
+ escreval ("Olá ", nome1, "! você tem", idade, " anos" )
+
+
+Fimalgoritmo
