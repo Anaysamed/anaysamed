@@ -1,0 +1,16 @@
+Algoritmo "triplo"
+
+Var
+num: real
+triplo: real
+
+Inicio
+
+escreval ("digite um número")
+leia (num)
+
+triplo := num*3
+
+escreval ("o triplo de ", num, " é: ", triplo)
+
+Fimalgoritmo
